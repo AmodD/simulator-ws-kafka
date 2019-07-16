@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    host-servers: host.docker.internal:9092
+
+
+app:
+  group: simulator-ws-kafka
+  topic:
+    generated-data: topic-amod-new
+
