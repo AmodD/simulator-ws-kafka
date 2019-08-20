@@ -7,5 +7,5 @@ spring:
 app:
   group: simulator-ws-kafka
   topic:
-    generated-data: topic-amod-new
+    generated-data: topic-generated-data
 

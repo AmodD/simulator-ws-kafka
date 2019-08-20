@@ -1,7 +1,9 @@
 HELP.md
 target/
+bin/
 *.class
 !.mvn/wrapper/maven-wrapper.jar
 .classpath
+.factorypath
 .project
 .settings/
