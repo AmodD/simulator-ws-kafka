@@ -1,9 +1,12 @@
 #
 # Build stage
 #
-FROM maven:3.5-jdk-8 AS build  
-COPY . .
-RUN mvn install 
+#FROM maven:3.5-jdk-8 AS build  
+# copy the project files
+#COPY ./ ./
+# build all dependencies for offline use
+#RUN mvn dependency:go-offline -B
+#RUN mvn package
 
 #
 # Package stage
